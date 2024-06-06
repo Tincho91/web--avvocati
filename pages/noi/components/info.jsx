@@ -47,7 +47,7 @@ const Info = () => {
               <Box py={5}>
                 <Heading fontFamily="Ruda">Maria Agovino</Heading>
                 <Text fontFamily="Roboto">
-                Avvocato dal 2001, con 27 anni di esperienza nel mercato legale locale. Perito legale presso il Tribunale di Mar del Plata.
+                  Avvocato dal 2001, con 27 anni di esperienza nel mercato legale locale. Perito legale presso il Tribunale di Milano.
                 </Text>
               </Box>
               <Box position="relative" zIndex="0" py={5} px="4" mx="-4" >
@@ -62,17 +62,14 @@ const Info = () => {
                 />
                 <Box position="relative" zIndex="1">
                   <Text color="white" fontFamily="Roboto">
-                    Martillera y corredora pública desde el año 2001, con
-                    experiencia de 27 años en el mercado inmobiliario local.
-                    Perito en tasaciones en el Departamento Judicial Mar del
-                    Plata.
+                    Lo studio legale ha attraversato una fase di crescita costante e, per oltre 20 anni, ha fornito consulenza legale e assistenza giudiziaria. Con una reputazione impeccabile, un approccio cordiale e professionale, oggi si impegna a sfruttare le opportunità digitali, senza perdere la propria empatia e la vocazione a offrire soluzioni legali efficaci e pragmatiche.
                   </Text>
                 </Box>
               </Box>
               <Box bg="white" py={5}>
                 <Heading fontFamily="Ruda">Maura Monteforte</Heading>
                 <Text fontFamily="Roboto">
-                Al nostro team si è unita una cara amica della casa. Lei segue i nostri principi fondamentali: Comunicazione, Disponibilità, Competenza. Requisiti essenziali per fornire un'assistenza legale sicura ed efficace.
+                 Al nostro team si è unita una cara amica della casa. Lei segue i nostri principi fondamentali: Comunicazione, Disponibilità, Competenza. Requisiti essenziali per fornire un&apos;assistenza legale sicura ed efficace.
                 </Text>
               </Box>
               <Image
@@ -101,7 +98,7 @@ const Info = () => {
                   </Heading>
                   <Box>
                     <Text fontFamily="Roboto">
-                    Avvocato dal 2001, con 27 anni di esperienza nel mercato legale locale. Perito legale presso il Tribunale di Mar del Plata.
+                      Avvocato dal 2001, con 27 anni di esperienza nel mercato legale locale. Perito legale presso il Tribunale di Mar del Plata.
                     </Text>
                   </Box>
                 </Box>
@@ -117,7 +114,7 @@ const Info = () => {
                     Maura Monteforte
                   </Heading>
                   <Text fontFamily="Roboto">
-                    Lo studio legale ha attraversato una fase di crescita costante e, per oltre 20 anni, ha fornito consulenza legale e assistenza giudiziaria. Con una reputazione impeccabile, un approccio cordiale e professionale, oggi si impegna a sfruttare le opportunità digitali, senza perdere la propria empatia e la vocazione a offrire soluzioni legali efficaci e pragmatiche.
+                    Al nostro team si è unita una cara amica della casa. Lei segue i nostri principi fondamentali: Comunicazione, Disponibilità, Competenza. Requisiti essenziali per fornire un&apos;assistenza legale sicura ed efficace.
                   </Text>
                 </Box>
                 <Box w="full" maxW="250px" minW="130px">
