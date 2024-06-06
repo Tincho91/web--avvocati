@@ -4,21 +4,16 @@ import {
   Text,
   Heading,
   Container,
-  useBreakpointValue,
 } from "@chakra-ui/react";
 import { AnimatedIcon } from "./animations/animatedIcon";
 import { ArrowDownIcon } from "@chakra-ui/icons";
 
 const Hero = () => {
-  const buttonPosition = useBreakpointValue({
-    base: "static",
-    sm: "absolute",
-  });
-
   return (
     <>
       <Box
         minH={{ base: "calc(100vh - 92px)", md: "calc(100vh - 92px)" }}
+        maxH="100vh"
         position="relative"
         backgroundSize="cover"
         backgroundPosition="center"
@@ -76,14 +71,13 @@ const Hero = () => {
           fontSize="16px"
           fontWeight={300}
           letterSpacing="4.8px"
-          position={buttonPosition}
+          position="absolute"
           bottom="0"
           right="0"
           bg="#090D1D"
           zIndex="1"
           p={5}
           color="white"
-          mt={buttonPosition === "static" ? "4" : "0"}
         >
           <Flex alignItems="center" gap={5}>
             <AnimatedIcon IconComponent={ArrowDownIcon} />
