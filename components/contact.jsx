@@ -34,10 +34,10 @@ const Contacto = () => {
             maxW="100%"
             flex="1"
           >
-            Lo Studio offre un'ampia gamma di servizi legali, tra cui assistenza
+            Lo Studio offre un&apos;ampia gamma di servizi legali, tra cui assistenza
             in diritto penale, acquisizioni e ristrutturazioni aziendali, e
             compliance secondo il Decreto Legislativo n. 231/2001. Con oltre
-            vent'anni di esperienza, partecipa anche a due diligence per
+            vent&apos;anni di esperienza, partecipa anche a due diligence per
             operazioni di private equity e aziende pubbliche. Recentemente, ha
             creato un dipartimento di diritto civile per fornire consulenza
             completa su questioni societarie, contrattuali, di privacy, marchio
