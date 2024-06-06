@@ -15,11 +15,6 @@ const Hero = () => {
     sm: "absolute",
   });
 
-  const displayText = useBreakpointValue({
-    base: "none",
-    sm: "block",
-  });
-
   return (
     <>
       <Box
@@ -89,7 +84,6 @@ const Hero = () => {
           p={5}
           color="white"
           mt={buttonPosition === "static" ? "4" : "0"}
-          display={displayText}
         >
           <Flex alignItems="center" gap={5}>
             <AnimatedIcon IconComponent={ArrowDownIcon} />
