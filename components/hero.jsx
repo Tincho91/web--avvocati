@@ -12,8 +12,7 @@ const Hero = () => {
   return (
     <>
       <Box
-        minH={{ base: "calc(100vh - 92px)", md: "calc(100vh - 92px)" }}
-        maxH="100vh"
+        h={{ base: "calc(100vh - 92px)", md: "calc(100vh - 92px)" }}
         position="relative"
         backgroundSize="cover"
         backgroundPosition="center"
