@@ -23,7 +23,7 @@ const Contacto = () => {
           textAlign="left"
           px={{ base: 6, md: 10 }}
           pt={{ base: 12, md: 10 }}
-          pb={{ base: "20%", md: 10 }}
+          pb={{ base: "5rem", md: 10 }}
         >
           <Heading color="white" pb={5} fontFamily="Ruda">
             Le Aree di Attività
@@ -66,7 +66,7 @@ const Contacto = () => {
               letterSpacing="4.8px"
             >
               <ChatIcon boxSize="16px" />
-              <Text>CONTACTANOS</Text>
+              <Text>CONTATTACI</Text>
             </Flex>
           </Link>
         </Box>

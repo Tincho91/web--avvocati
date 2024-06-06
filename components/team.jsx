@@ -30,7 +30,7 @@ const Team = () => {
     sm: "4",
   });
 
-  const imageUrl = useBreakpointValue({ base: "images/foto1M.png", sm: "images/foto1.png" });
+  const imageUrl = useBreakpointValue({ base: "images/team1.jpg", sm: "images/team1.jpg" });
 
   return (
     <Box
@@ -67,16 +67,15 @@ const Team = () => {
               pr={{ sm: 3 }}
               fontFamily="Ruda"
             >
-              Somos un equipo
+              Il Nostro Team
             </Heading>
             <Text pt={{ sm: 3 }} pl={{ sm: 3 }} pr={{ sm: 3 }} fontFamily='Roboto' color='#090D1DCC' fontSize='16px' pb={5}>
-              Nos reunimos en el Colegio de Martilleros y Corredores Públicos
-              para ajustar estrategias y efectivizar la concreción del negocio.
+              Siamo composto da avvocati esperti e dediti, pronti a offrire soluzioni legali efficaci e personalizzate per ogni cliente.
             </Text>
 
             
             <Link
-              href="/nosotros"
+              href="/noi"
               width="full"
               style={{ textDecoration: "none" }}
             >
@@ -98,7 +97,7 @@ const Team = () => {
                   justify="center"
                 >
                   <AddIcon boxSize="16px" />
-                  <Text>VER MÁS</Text>
+                  <Text>DETTAGLI</Text>
                 </Flex>
               </Box>
             </Link>

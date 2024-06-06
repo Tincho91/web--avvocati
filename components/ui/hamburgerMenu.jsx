@@ -73,9 +73,9 @@ const HamburgerMenu = () => {
                       lg: "5xl",
                       xl: "6xl",
                     }}
-                    href="/nosotros"
+                    href="/noi"
                   >
-                    Sobre Nosotros
+                    Chi Siamo
                   </Link>
                   <Link
                     fontSize={{
@@ -85,21 +85,9 @@ const HamburgerMenu = () => {
                       lg: "5xl",
                       xl: "6xl",
                     }}
-                    href="/comprar"
+                    href="/servizi"
                   >
-                    Quiero Comprar
-                  </Link>
-                  <Link
-                    fontSize={{
-                      base: "2xl",
-                      sm: "3xl",
-                      md: "4xl",
-                      lg: "5xl",
-                      xl: "6xl",
-                    }}
-                    href="/vender"
-                  >
-                    Quiero Vender
+                    I nostri servizi
                   </Link>
                 </VStack>
                 <Flex
