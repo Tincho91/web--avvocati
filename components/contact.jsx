@@ -7,7 +7,7 @@ const Contacto = () => {
       <Container
         maxW="1200px"
         mx="auto"
-        p={{ base: 0, md: 8 }}
+        py="8"
         position="relative"
         overflow="hidden"
       >

@@ -37,6 +37,7 @@ const Team = () => {
       position="relative"
       bg={containerBg}
       pt={{ base: "0", sm: imagePadding }}
+      py="8"
     >
       <Container maxW="1200px" mx="auto" position="relative">
         <Flex position="relative" direction="column">
