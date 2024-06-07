@@ -65,7 +65,7 @@ const Vender = () => {
             legale?
           </Heading>
           <Text fontSize="md" mt={4} fontFamily="Roboto" color="white">
-            Con oltre vent'anni di esperienza, il nostro team offre una vasta
+            Con oltre vent&apos;anni di esperienza, il nostro team offre una vasta
             gamma di servizi legali in diritto{" "}
             <strong>
               penale, acquisizioni aziendali, compliance, e diritto civile

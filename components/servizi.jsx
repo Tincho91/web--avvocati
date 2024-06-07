@@ -35,7 +35,7 @@ const Servizi = () => {
             maxW="100%"
             flex="1"
           >
-            Lo Studio offre servizi legali in diritto penale, acquisizioni aziendali, e compliance secondo il D.Lgs. 231/2001. Con oltre vent'anni di esperienza, supporta operazioni di due diligence per private equity e aziende pubbliche. Recentemente, ha creato un dipartimento di diritto civile per consulenze su questioni societarie, contrattuali, privacy, marchi e reputazione. I professionisti lavorano in team per garantire serietà e professionalità, collaborando con altre Law Firm e consulenti a livello nazionale e internazionale.
+            Lo Studio offre servizi legali in diritto penale, acquisizioni aziendali, e compliance secondo il D.Lgs. 231/2001. Con oltre vent&apos;anni di esperienza, supporta operazioni di due diligence per private equity e aziende pubbliche. Recentemente, ha creato un dipartimento di diritto civile per consulenze su questioni societarie, contrattuali, privacy, marchi e reputazione. I professionisti lavorano in team per garantire serietà e professionalità, collaborando con altre Law Firm e consulenti a livello nazionale e internazionale.
           </Text>
           <Link href="/servizi">
             <Flex
