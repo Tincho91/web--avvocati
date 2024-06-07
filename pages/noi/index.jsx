@@ -37,7 +37,7 @@ const Nosotros = () => {
             w={{ md: "35%", xl: "30%" }}
           >
             <Heading as="h1" size="xl" fontFamily="Ruda">
-              Il nostro team
+              Il Nostro Team
             </Heading>
             <Text mt={2}>
               Siamo composto da avvocati esperti e dediti, pronti a offrire soluzioni legali efficaci e personalizzate per ogni cliente.
