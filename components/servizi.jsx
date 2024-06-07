@@ -14,7 +14,7 @@ const Servizi = () => {
       >
         <Box
           minHeight="375px"
-          bgImage="url('/images/servicios.jpg')"
+          bgImage={`linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 100%), url('/images/servicios.jpg')"`}
           bgSize="cover"
           bgPosition="center"
           position="relative"
