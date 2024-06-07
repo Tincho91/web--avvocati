@@ -80,6 +80,7 @@ const Team = () => {
               style={{ textDecoration: "none" }}
             >
               <Box
+                colorScheme="blue"
                 fontFamily="Roboto"
                 fontSize="16px"
                 fontWeight={300}

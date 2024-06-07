@@ -34,14 +34,11 @@ const Navbar = () => {
 
           <Flex align="center" gap={5}>
             <Flex align="center" display={{ base: "none", lg: "flex" }} gap={5} fontFamily='roboto'>
-              <Link href="/nosotros">
-                <Box mx={2}>Sobre Nosotros</Box>
+              <Link href="/noi">
+                <Box mx={2}>Chi Siamo</Box>
               </Link>
-              <Link href="/comprar">
-                <Box mx={2}>Quiero Comprar</Box>
-              </Link>
-              <Link href="/vender">
-                <Box mx={2}>Quiero Vender</Box>
+              <Link href="/servizi">
+                <Box mx={2}>I nostri servizi</Box>
               </Link>
             </Flex>
             <Flex align="center" display={{ base: "none", md: "flex" }} gap={5}>

@@ -3,7 +3,7 @@
 import { Box } from "@chakra-ui/react";
 
 import Hero from "../components/hero";
-import Contact from "../components/contact";
+import Servizi from "../components/servizi";
 import Team from "../components/team";
 
 const HomePage = () => {
@@ -11,7 +11,7 @@ const HomePage = () => {
   return (
     <Box>
       <Hero />
-      <Contact />
+      <Servizi />
       <Team />
     </Box>
   )

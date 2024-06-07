@@ -1,13 +1,14 @@
 import { Box, Text, Container, Heading, Flex, Link } from "@chakra-ui/react";
 import { ChatIcon } from "@chakra-ui/icons";
 
-const Contacto = () => {
+const Servizi = () => {
   return (
     <Box bg="#090D1D" position="relative">
       <Container
         maxW="1200px"
         mx="auto"
         py="8"
+        px={8}
         position="relative"
         overflow="hidden"
       >
@@ -34,19 +35,9 @@ const Contacto = () => {
             maxW="100%"
             flex="1"
           >
-            Lo Studio offre un&apos;ampia gamma di servizi legali, tra cui assistenza
-            in diritto penale, acquisizioni e ristrutturazioni aziendali, e
-            compliance secondo il Decreto Legislativo n. 231/2001. Con oltre
-            vent&apos;anni di esperienza, partecipa anche a due diligence per
-            operazioni di private equity e aziende pubbliche. Recentemente, ha
-            creato un dipartimento di diritto civile per fornire consulenza
-            completa su questioni societarie, contrattuali, di privacy, marchio
-            e reputazione. I professionisti lavorano in team organizzati per
-            garantire la massima serietà e professionalità, e collaborano con
-            altre Law Firm e consulenti tecnici a livello nazionale e
-            internazionale.
+            Lo Studio offre servizi legali in diritto penale, acquisizioni aziendali, e compliance secondo il D.Lgs. 231/2001. Con oltre vent'anni di esperienza, supporta operazioni di due diligence per private equity e aziende pubbliche. Recentemente, ha creato un dipartimento di diritto civile per consulenze su questioni societarie, contrattuali, privacy, marchi e reputazione. I professionisti lavorano in team per garantire serietà e professionalità, collaborando con altre Law Firm e consulenti a livello nazionale e internazionale.
           </Text>
-          <Link href="/">
+          <Link href="/servizi">
             <Flex
               alignItems="center"
               gap={5}
@@ -66,7 +57,7 @@ const Contacto = () => {
               letterSpacing="4.8px"
             >
               <ChatIcon boxSize="16px" />
-              <Text>CONTATTACI</Text>
+              <Text>VEDI I SERVIZI</Text>
             </Flex>
           </Link>
         </Box>
@@ -75,4 +66,4 @@ const Contacto = () => {
   );
 };
 
-export default Contacto;
+export default Servizi;

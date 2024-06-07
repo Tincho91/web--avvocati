@@ -4,8 +4,6 @@ import {
   Heading,
   useBreakpointValue,
   Container,
-  Image,
-  Flex,
 } from "@chakra-ui/react";
 import Info from "./components/info";
 
@@ -35,7 +33,7 @@ const Nosotros = () => {
             m={{ sm: 5, md: "0" }}
             p={{ base: 5, md: "0" }}
             bg={{ base: "rgba(0,0,0,0.5)", md: "transparent" }}
-            textColor={{ base: "white", md: "black" }}
+            textColor={{ base: "white", md: "#090D1D" }}
             w={{ md: "35%", xl: "30%" }}
           >
             <Heading as="h1" size="xl" fontFamily="Ruda">
@@ -47,10 +45,7 @@ const Nosotros = () => {
           </Box>
         </Container>
       </Box>
-
-
       <Info />
-
     </>
   );
 };
