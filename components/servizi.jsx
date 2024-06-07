@@ -24,7 +24,7 @@ const Servizi = () => {
           textAlign="left"
           px={{ base: 6, md: 10 }}
           pt={{ base: 12, md: 10 }}
-          pb={{ base: "5rem", md: 10 }}
+          pb={{ base: "8rem", md: 10 }}
         >
           <Heading color="white" pb={5} fontFamily="Ruda">
             Le Aree di Attività
