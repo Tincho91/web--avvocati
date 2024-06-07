@@ -25,14 +25,14 @@ const Hero = () => {
           left="0"
           right="0"
           bottom="0"
-          backgroundImage="linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 25%), url('/images/hero.jpeg')"
+          backgroundImage="linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 45%), url('/images/hero.jpeg')"
           backgroundSize="cover"
           backgroundPosition="center"
           zIndex="-1"
         />
         <Container maxW="1200px" mx="auto" mb={{ base: "0", sm: "5" }}>
           <Flex direction="column" align="flex-start" h="full">
-            <Heading fontSize="4xl" fontFamily="Ruda" fontWeight="bold">
+            <Heading fontSize="5xl" fontFamily="Ruda" fontWeight="bold">
               Il tuo{" "}
               <Box as="span" position="relative" display="inline-block">
                 <Box
@@ -57,7 +57,7 @@ const Hero = () => {
               </Box>{" "}
               legale
             </Heading>
-            <Text fontSize="lg" mt={4} fontFamily="Roboto">
+            <Text fontSize="xl" mt={4} fontFamily="Roboto">
             Esperti in diritto{" "}
               <strong>civile, penale, societario</strong> e nelle consulenze legali personalizzate.
             </Text>
