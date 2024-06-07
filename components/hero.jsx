@@ -25,9 +25,9 @@ const Hero = () => {
           left="0"
           right="0"
           bottom="0"
-          backgroundImage="linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0) 45%), url('/images/hero.jpeg')"
+          backgroundImage="linear-gradient(180deg, rgba(255,255,255,0.7) 30%, rgba(255,255,255,0) 100%), url('/images/hero.jpeg')"
           backgroundSize="cover"
-          backgroundPosition="center"
+          backgroundPosition="bottom"
           zIndex="-1"
         />
         <Container maxW="1200px" mx="auto" mb={{ base: "0", sm: "5" }}>
