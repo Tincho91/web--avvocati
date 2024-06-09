@@ -10,6 +10,7 @@ const Contatti = () => {
       bg="#090D1D"
       zIndex="0"
       id="contatti"
+      overflowX="hidden"
     >
       <Box
         position="absolute"

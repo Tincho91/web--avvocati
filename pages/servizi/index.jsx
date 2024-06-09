@@ -3,13 +3,14 @@
 import { Box, Flex, Container, Text, Image, Heading } from "@chakra-ui/react";
 import ServiziList from "./components/serviziList";
 
-const Vender = () => {
+const Servizi = () => {
   return (
     <Box
       position="relative"
       pb={{ base: "10", md: "auto" }}
       bg="#090D1D"
       zIndex="0"
+      overflowX="hidden"
     >
       <Box
         position="absolute"
@@ -79,4 +80,4 @@ const Vender = () => {
   );
 };
 
-export default Vender;
+export default Servizi;

@@ -26,6 +26,7 @@ const Nosotros = () => {
         h={{ base: "550px", sm: "300px" }}
         maxH="80vh"
         position="relative"
+        overflowX="hidden"
       >
         <Container maxW="1200px" h="100%" mx="auto">
           <Box

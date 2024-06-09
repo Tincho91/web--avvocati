@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { Box } from "@chakra-ui/react";
 
 const FadeInFrom = ({ id, direction, children }) => {
   const [isInView, setIsInView] = useState(false);

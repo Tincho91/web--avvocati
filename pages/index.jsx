@@ -9,7 +9,7 @@ import Team from "../components/team";
 const HomePage = () => {
 
   return (
-    <Box>
+    <Box overflowX="hidden">
       <Hero />
       <Servizi />
       <Team />
