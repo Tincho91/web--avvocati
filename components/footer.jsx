@@ -35,13 +35,13 @@ const Footer = () => {
           <Flex
             direction={{ base: "column", sm: "row" }}
             justify="space-between"
-            alignItems={{ base: "center", sm: "flex-start" }} // Centra los elementos en pantallas pequeñas
+            alignItems={{ base: "center", sm: "flex-start" }}
             my={5}
             w="100%"
           >
             <VStack
-              align={{ base: "center", sm: "flex-start" }} // Centra el contenido horizontalmente en pantallas pequeñas
-              textAlign={{ base: "center", sm: "left" }} // Centra el texto en pantallas pequeñas
+              align={{ base: "center", sm: "flex-start" }} 
+              textAlign={{ base: "center", sm: "left" }} 
               spacing={2}
               w={{ base: "100%", md: "auto" }}
             >
@@ -51,10 +51,10 @@ const Footer = () => {
               <Text>PEC: ....</Text>
             </VStack>
             <VStack
-              align={{ base: "center", sm: "flex-end" }} // Centra el contenido horizontalmente en pantallas pequeñas
-              textAlign={{ base: "center", sm: "right" }} // Centra el texto en pantallas pequeñas
+              align={{ base: "center", sm: "flex-end" }}
+              textAlign={{ base: "center", sm: "right" }}
               spacing={2}
-              mt={{ base: 5, sm: 0 }} // Añade un margen superior en pantallas pequeñas
+              mt={{ base: 5, sm: 0 }}
               w={{ base: "100%", md: "auto" }}
             >
               <Link href="#">Política de privacidad</Link>

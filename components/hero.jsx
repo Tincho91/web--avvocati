@@ -1,12 +1,8 @@
-import {
-  Box,
-  Flex,
-  Text,
-  Heading,
-  Container,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, Heading, Container, Link } from "@chakra-ui/react";
 import { AnimatedIcon } from "./animations/animatedIcon";
 import { ArrowDownIcon } from "@chakra-ui/icons";
+
+import FadeInFrom from "./animations/fadeInFrom";
 
 const Hero = () => {
   return (
@@ -31,41 +27,52 @@ const Hero = () => {
           zIndex="-1"
         />
         <Container maxW="1200px" mx="auto" mb={{ base: "0", sm: "5" }}>
-          <Flex direction="column" align="flex-start" h="full" w={{base: "full", lg:"75%"}}>
-            <Heading fontSize={{base: '4xl', md: '5xl'}} fontFamily="Ruda" fontWeight="bold">
-              Esperienza e professionalità. Difendiamo i{" "}
-              <Box as="span" position="relative" display="inline-block">
-                <Box
-                  as="span"
-                  position="absolute"
-                  bottom="10%"
-                  left="50%"
-                  transform="translateX(-50%)"
-                  width="102%"
-                  height="50%"
-                  bg="#B9D0FF"
-                  zIndex="1"
-                ></Box>
-                <span
-                  style={{
-                    zIndex: "2",
-                    position: "relative",
-                  }}
-                >
-                  tuoi diritti
-                </span>
-              </Box>{" "}
-              .
-            </Heading>
-            <Text fontSize="xl" mt={4} fontFamily="Roboto">
-            Esperti in diritto{" "}
-              <strong>civile, penale, societario</strong> e nelle consulenze legali personalizzate.
-            </Text>
-          </Flex>
+          <FadeInFrom direction="bottom" id="heroText">
+            <Flex
+              direction="column"
+              align="flex-start"
+              h="full"
+              w={{ base: "full", lg: "75%" }}
+            >
+              <Heading
+                fontSize={{ base: "4xl", md: "5xl" }}
+                fontFamily="Ruda"
+                fontWeight="bold"
+              >
+                Esperienza e professionalità. Difendiamo i{" "}
+                <Box as="span" position="relative" display="inline-block">
+                  <Box
+                    as="span"
+                    position="absolute"
+                    bottom="10%"
+                    left="50%"
+                    transform="translateX(-50%)"
+                    width="102%"
+                    height="50%"
+                    bg="#B9D0FF"
+                    zIndex="1"
+                  ></Box>
+                  <span
+                    style={{
+                      zIndex: "2",
+                      position: "relative",
+                    }}
+                  >
+                    tuoi diritti
+                  </span>
+                </Box>{" "}
+                .
+              </Heading>
+              <Text fontSize="xl" mt={4} fontFamily="Roboto">
+                Esperti in diritto <strong>civile, penale, societario</strong> e
+                nelle consulenze legali personalizzate.
+              </Text>
+            </Flex>
+          </FadeInFrom>
         </Container>
       </Box>
       <Container maxW="1200px" mx="auto" position="relative">
-        <Box
+        <Link
           fontFamily="Roboto"
           fontSize="16px"
           fontWeight={300}
@@ -77,12 +84,13 @@ const Hero = () => {
           zIndex="1"
           p={5}
           color="white"
+          href="#servizi"
         >
           <Flex alignItems="center" gap={5}>
             <AnimatedIcon IconComponent={ArrowDownIcon} />
             <Text>SCOPRI DI PIÙ</Text>
           </Flex>
-        </Box>
+        </Link>
       </Container>
     </>
   );

@@ -11,10 +11,9 @@ import {
 } from "@chakra-ui/react";
 
 import { AddIcon } from "@chakra-ui/icons";
+import FadeInFrom from "./animations/fadeInFrom";
 
 const Team = () => {
-
-
   const displayText = useBreakpointValue({
     base: "block",
     sm: "static",
@@ -30,7 +29,10 @@ const Team = () => {
     sm: "4",
   });
 
-  const imageUrl = useBreakpointValue({ base: "images/team1.jpg", sm: "images/team1.jpg" });
+  const imageUrl = useBreakpointValue({
+    base: "images/team1.jpg",
+    sm: "images/team1.jpg",
+  });
 
   return (
     <Box
@@ -61,24 +63,30 @@ const Team = () => {
             bg={{ sm: "#ECF0FF" }}
             mb={{ base: 3, md: 0 }}
           >
-            <Heading
-              pt={{ sm: 3 }}
-              pl={{ sm: 3 }}
-              pr={{ sm: 3 }}
-              fontFamily="Ruda"
-            >
-              Il Nostro Team
-            </Heading>
-            <Text pt={{ sm: 3 }} pl={{ sm: 3 }} pr={{ sm: 3 }} fontFamily='Roboto' color='#090D1DCC' fontSize='16px' pb={5}>
-              Siamo composto da avvocati esperti e dediti, pronti a offrire soluzioni legali efficaci e personalizzate per ogni cliente.
-            </Text>
-
-            
-            <Link
-              href="/noi"
-              width="full"
-              style={{ textDecoration: "none" }}
-            >
+            <FadeInFrom direction="left" id="teamText">
+              <Heading
+                pt={{ sm: 3 }}
+                pl={{ sm: 3 }}
+                pr={{ sm: 3 }}
+                fontFamily="Ruda"
+                fontSize={{ base: "4xl", md: "5xl" }}
+              >
+                Il Nostro Team
+              </Heading>
+              <Text
+                pt={{ sm: 3 }}
+                pl={{ sm: 3 }}
+                pr={{ sm: 3 }}
+                fontFamily="Roboto"
+                color="#090D1DCC"
+                fontSize="16px"
+                pb={5}
+              >
+                Siamo composto da avvocati esperti e dediti, pronti a offrire
+                soluzioni legali efficaci e personalizzate per ogni cliente.
+              </Text>
+            </FadeInFrom>
+            <Link href="/noi" width="full" style={{ textDecoration: "none" }}>
               <Box
                 colorScheme="blue"
                 fontFamily="Roboto"

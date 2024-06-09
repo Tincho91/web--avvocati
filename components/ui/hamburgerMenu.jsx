@@ -12,6 +12,7 @@ import {
   useDisclosure,
   VStack,
   Link,
+  Container,
 } from "@chakra-ui/react";
 
 import {

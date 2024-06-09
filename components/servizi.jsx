@@ -1,9 +1,10 @@
 import { Box, Text, Container, Heading, Flex, Link } from "@chakra-ui/react";
 import { ChatIcon } from "@chakra-ui/icons";
+import FadeInFrom from "./animations/fadeInFrom";
 
 const Servizi = () => {
   return (
-    <Box bg="#090D1D" position="relative">
+    <Box bg="#090D1D" position="relative" id="servizi">
       <Container
         maxW="1200px"
         mx="auto"
@@ -21,22 +22,38 @@ const Servizi = () => {
           display="flex"
           alignItems="center"
           flexDirection="column"
-          textAlign="left"
+          textAlign="center"
           px={{ base: 6, md: 10 }}
           pt={{ base: 12, md: 10 }}
           pb={{ base: "8rem", md: 10 }}
         >
-          <Heading color="white" pb={5} fontFamily="Ruda">
-            Le Aree di Attività
-          </Heading>
-          <Text
-            color="white"
-            fontFamily="Roboto"
-            maxW="100%"
-            flex="1"
-          >
-            Lo Studio offre servizi legali in diritto penale, acquisizioni aziendali e compliance. Con oltre vent&apos;anni di esperienza, supporta operazioni di due diligence per private equity e aziende pubbliche. Ha creato un dipartimento di diritto civile per consulenze su questioni societarie, contrattuali, privacy, marchi e reputazione. I professionisti collaborano con altre Law Firm e consulenti a livello nazionale e internazionale.
-          </Text>
+          <FadeInFrom direction="left" id="homeServizi">
+            <Heading
+              color="white"
+              pb={5}
+              fontFamily="Ruda"
+              textAlign="center"
+              fontSize={{ base: "4xl", md: "5xl" }}
+            >
+              Le Aree di Attività
+            </Heading>
+            <Text
+              color="white"
+              fontFamily="Roboto"
+              maxW="100%"
+              flex="1"
+              textAlign="center"
+              fontSize="xl"
+            >
+              Lo Studio offre servizi legali in diritto penale, acquisizioni
+              aziendali e compliance. Con oltre vent&apos;anni di esperienza,
+              supporta operazioni di due diligence per private equity e aziende
+              pubbliche. Ha creato un dipartimento di diritto civile per
+              consulenze su questioni societarie, contrattuali, privacy, marchi
+              e reputazione. I professionisti collaborano con altre Law Firm e
+              consulenti a livello nazionale e internazionale.
+            </Text>
+          </FadeInFrom>
           <Link href="/servizi">
             <Flex
               alignItems="center"

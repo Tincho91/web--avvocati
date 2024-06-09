@@ -50,7 +50,7 @@ const ContactForm = () => {
   return (
     <Box bg="#ECF0FF">
       <Container py={5} maxW="1200px" mx="auto">
-        <Heading color="black" pb={5} fontFamily="Ruda" textAlign="center">
+        <Heading color="black" pb={5} fontFamily="Ruda" textAlign="center" fontSize={{ base: "4xl", md: "5xl" }}>
           Contatti
         </Heading>
         <Box bg="white" m="5">
