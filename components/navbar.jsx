@@ -22,7 +22,7 @@ const Navbar = () => {
     >
       <Container maxW="1200px" mx="auto">
         <Flex align="center" justify="space-between" width="100%">
-          <Flex align="center" gap="10">
+          <Flex align="center" gap={{ base: "2", sm: "10" }}>
             <HamburgerMenu />
             <Link href="/" _hover={{ textDecoration: 'none', color: 'inherit' }}>
               <Box textAlign="center" fontFamily="Ruda">
