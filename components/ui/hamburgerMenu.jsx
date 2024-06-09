@@ -78,6 +78,7 @@ const HamburgerMenu = () => {
                   >
                     Chi Siamo
                   </Link>
+
                   <Link
                     fontSize={{
                       base: "2xl",
@@ -90,28 +91,40 @@ const HamburgerMenu = () => {
                   >
                     I nostri servizi
                   </Link>
+                  <Link
+                    fontSize={{
+                      base: "2xl",
+                      sm: "3xl",
+                      md: "4xl",
+                      lg: "5xl",
+                      xl: "6xl",
+                    }}
+                    href="/contatti"
+                  >
+                    CONTATTI
+                  </Link>
                 </VStack>
                 <Flex
                   spacing={4}
                   alignItems="center"
                   justifyContent="center"
                   mt="20"
-                  gap={6}
+                  gap={7}
                 >
                   <Link isExternal href="mailto:example@example.com">
-                    <FaEnvelope size="1.5em" />
+                    <FaEnvelope size="2em" />
                   </Link>
                   <Link
                     isExternal
                     href="https://api.whatsapp.com/send?phone=PHONE_NUMBER"
                   >
-                    <FaWhatsapp size="1.5em" />
+                    <FaWhatsapp size="2em" />
                   </Link>
                   <Link isExternal href="https://www.facebook.com/YourPage">
-                    <FaFacebook size="1.5em" />
+                    <FaFacebook size="2em" />
                   </Link>
                   <Link isExternal href="https://www.instagram.com/YourProfile">
-                    <FaInstagram size="1.5em" />
+                    <FaInstagram size="2em" />
                   </Link>
                 </Flex>
               </Flex>

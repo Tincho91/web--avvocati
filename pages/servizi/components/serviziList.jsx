@@ -1,34 +1,41 @@
 import { Box, Text, Container, Heading, Flex, Link } from "@chakra-ui/react";
 import { ChatIcon } from "@chakra-ui/icons";
+import FadeInFrom from "../../../components/animations/fadeInFrom";
 
 const services = [
   {
     title: "Diritto Penale",
-    description: "Servizi legali in diritto penale, supporto in casi complessi.",
-    bgImage: "/images/servicios.jpg"
+    description:
+      "Servizi legali in diritto penale, supporto in casi complessi.",
+    bgImage: "/images/servicios.jpg",
   },
   {
     title: "Acquisizioni Aziendali",
     description: "Consulenza per acquisizioni e ristrutturazioni aziendali.",
-    bgImage: "/images/servicios.jpg"
+    bgImage: "/images/servicios.jpg",
   },
   {
     title: "Compliance",
     description: "Supporto per la compliance secondo il D.Lgs. 231/2001.",
-    bgImage: "/images/servicios.jpg"
+    bgImage: "/images/servicios.jpg",
   },
   {
     title: "Diritto Civile",
-    description: "Consulenze su questioni societarie, contrattuali, privacy, marchi e reputazione.",
-    bgImage: "/images/servicios.jpg"
-  }
+    description:
+      "Consulenze su questioni societarie, contrattuali, privacy, marchi e reputazione.",
+    bgImage: "/images/servicios.jpg",
+  },
 ];
 
 const ServiziList = () => {
   return (
     <>
       {services.map((service, index) => (
-        <Box key={index} bg={index % 2 === 0 ? "#090D1D" : "white"} position="relative">
+        <Box
+          key={index}
+          bg={index % 2 === 0 ? "#090D1D" : "white"}
+          position="relative"
+        >
           <Container
             maxW="1200px"
             mx="auto"
@@ -53,17 +60,17 @@ const ServiziList = () => {
               bgSize="cover"
               bgPosition="center"
             >
-              <Heading color="white" pb={5} fontFamily="Ruda">
-                {service.title}
-              </Heading>
-              <Text
-                color="white"
-                fontFamily="Roboto"
-                maxW="100%"
-                flex="1"
-              >
-                {service.description}
-              </Text>
+              <FadeInFrom id={index} direction="bottom">
+                <Heading color="white" pb={5} fontFamily="Ruda" fontSize={{ base: "4xl", md: "5xl" }}>
+                  {service.title}
+                </Heading>
+              </FadeInFrom>
+              <FadeInFrom id={index} direction="bottom">
+                <Text color="white" fontFamily="Roboto" maxW="100%" flex="1">
+                  {service.description}
+                </Text>
+              </FadeInFrom>
+
               <Link href="/servizi">
                 <Flex
                   alignItems="center"
@@ -84,7 +91,9 @@ const ServiziList = () => {
                   letterSpacing="4.8px"
                 >
                   <ChatIcon boxSize="16px" />
-                  <Text color={index % 2 === 0 ? "white" : "black"}>RICHIEDI INFORMAZIONI</Text>
+                  <Text color={index % 2 === 0 ? "white" : "black"}>
+                    RICHIEDI INFORMAZIONI
+                  </Text>
                 </Flex>
               </Link>
             </Box>
