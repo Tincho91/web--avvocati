@@ -63,7 +63,7 @@ const Team = () => {
             bg={{ sm: "#ECF0FF" }}
             mb={{ base: 3, md: 0 }}
           >
-            <FadeInFrom direction="right" id="teamText">
+            <FadeInFrom direction="bottom" id="teamText">
               <Heading
                 pt={{ sm: 3 }}
                 pl={{ sm: 3 }}
