@@ -5,10 +5,6 @@ body,
   scroll-behavior: smooth;
 }
 
-html, body {
-  overflow-x: hidden;
-}
-
 ::-webkit-scrollbar {
   width: 10px;
 }
