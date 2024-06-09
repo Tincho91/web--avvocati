@@ -78,20 +78,28 @@ const Info = () => {
                   </Text>
                 </Box>
               </Box>
-              <FadeInFrom direction="right" id="mauraMon">
-                <Box bg="white" py={5}>
-                  <Heading fontFamily="Ruda">Maura Monteforte</Heading>
-                  <Text fontFamily="Roboto">
+
+              <Box bg="white" py={5}>
+                <FadeInFrom direction="right" id="mauraMon">
+                  <Heading fontFamily="Ruda" textAlign="right">
+                    Maura Monteforte
+                  </Heading>
+                </FadeInFrom>
+                <FadeInFrom direction="right" id="mauraMon">
+                  <Text fontFamily="Roboto" textAlign="right">
                     Al nostro team si è unita una cara amica della casa. Lei
                     segue i nostri principi fondamentali: Comunicazione,
                     Disponibilità, Competenza. Requisiti essenziali per fornire
                     un&apos;assistenza legale sicura ed efficace.
                   </Text>
-                </Box>
+                </FadeInFrom>
+              </Box>
+              <FadeInFrom direction="right" id="mauraMon" style={{ display: "flex", justifyContent: "flex-end", width: "100%" }}>
                 <Image
                   src="/images/team1-2.jpg"
                   h="250px"
                   alt="Maura Monteforte"
+                  align="right"
                   alignSelf="flex-end"
                   objectFit="cover"
                 />

@@ -10,14 +10,11 @@ const Contatti = () => {
       bg="#090D1D"
       zIndex="0"
       id="contatti"
-      overflowX="hidden"
     >
       <Box
         position="absolute"
-        top="0"
-        left="0"
-        right="0"
-        height="250px"
+        inset='0'
+        minH="250px"
         backgroundImage={{
           base: "/images/sellBannerMobile.png",
           sm: "/images/sellBanner.png",

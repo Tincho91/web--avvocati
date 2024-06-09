@@ -2,9 +2,8 @@
 
 import React, { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Box } from "@chakra-ui/react";
 
-const FadeInFrom = ({ id, direction, children }) => {
+const FadeInFrom = ({ id, direction, children , style = {}}) => {
   const [isInView, setIsInView] = useState(false);
 
   const scrollHandler = () => {
@@ -39,6 +38,7 @@ const FadeInFrom = ({ id, direction, children }) => {
         initial={variants[direction].initial}
         animate={isInView ? variants[direction].animate : {}}
         transition={{ duration: 0.8, delay: 0.3 }}
+        style={style}
       >
         {children}
       </motion.div>

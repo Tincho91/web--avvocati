@@ -8,9 +8,15 @@ import {
   Container,
 } from "@chakra-ui/react";
 import Info from "./components/info";
+import FadeInFrom from "../../components/animations/fadeInFrom";
 
 const Nosotros = () => {
-  const breakpoint = useBreakpointValue({ base: "base", sm: "sm", md: 'md', lg: 'lg' });
+  const breakpoint = useBreakpointValue({
+    base: "base",
+    sm: "sm",
+    md: "md",
+    lg: "lg",
+  });
 
   return (
     <>
@@ -30,8 +36,8 @@ const Nosotros = () => {
       >
         <Container maxW="1200px" h="100%" mx="auto">
           <Box
-            position={"absolute" }
-            top={{ base: "65%", sm: "30%",  md: "45%" }}
+            position={"absolute"}
+            top={{ base: "65%", sm: "30%", md: "45%" }}
             left={{ sm: 0, md: "auto" }}
             m={{ sm: 5, md: "0" }}
             p={{ base: 5, md: "5" }}
@@ -39,12 +45,15 @@ const Nosotros = () => {
             textColor={{ base: "white", md: "#090D1D" }}
             w={{ base: "75%", sm: "55%", xl: "30%" }}
           >
-            <Heading as="h1" size="xl" fontFamily="Ruda">
-              Il Nostro Team
-            </Heading>
-            <Text mt={2}>
-              Siamo composto da avvocati esperti e dediti, pronti a offrire soluzioni legali efficaci e personalizzate per ogni cliente.
-            </Text>
+            <FadeInFrom id="teamHero" direction="scale">
+              <Heading as="h1" size="xl" fontFamily="Ruda">
+                Il Nostro Team
+              </Heading>
+              <Text mt={2}>
+                Siamo composto da avvocati esperti e dediti, pronti a offrire
+                soluzioni legali efficaci e personalizzate per ogni cliente.
+              </Text>
+            </FadeInFrom>
           </Box>
         </Container>
       </Box>
