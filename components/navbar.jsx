@@ -5,6 +5,8 @@ import {
   IconButton,
   Image,
   Container,
+  Divider,
+  Text,
 } from "@chakra-ui/react";
 import { FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import HamburgerMenu from "./ui/hamburgerMenu";
@@ -22,13 +24,19 @@ const Navbar = () => {
         <Flex align="center" justify="space-between" width="100%">
           <Flex align="center" gap="10">
             <HamburgerMenu />
-            <Link href="/">
-              <Image
-                src="/images/brand.png"
-                alt="Brand Logo"
-                h={{ base: "40px", sm: "60px" }}
-                ml={2}
-              />
+            <Link href="/" _hover={{ textDecoration: 'none', color: 'inherit' }}>
+              <Box textAlign="center" fontFamily="Ruda">
+                <Text fontSize={{ base: "xl", md: "3xl" }} fontWeight="bold" color="#090D1D">
+                  Studio Legale Agovino Monteforte
+                </Text>
+                <Box display="flex" alignItems="center" justifyContent="center" mt={1}>
+                  <Divider width="20%" />
+                  <Text mx={3} fontSize="lg" color="#B9D0FF">
+                    Avvocati di Fiducia
+                  </Text>
+                  <Divider width="20%" />
+                </Box>
+              </Box>
             </Link>
           </Flex>
 

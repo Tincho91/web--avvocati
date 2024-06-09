@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <>
       <Box
-        h={{ base: "calc(95vh - 92px)", md: "calc(100vh - 92px)" }}
+        h={{ base: "calc(95vh - 61px)", md: "calc(95vh - 76px)" }}
         position="relative"
         backgroundSize="cover"
         backgroundPosition="center"
@@ -27,13 +27,13 @@ const Hero = () => {
           bottom="0"
           backgroundImage="linear-gradient(180deg, rgba(255,255,255,0.7) 30%, rgba(255,255,255,0) 100%), url('/images/hero.jpeg')"
           backgroundSize="cover"
-          backgroundPosition="bottom"
+          backgroundPosition="top"
           zIndex="-1"
         />
         <Container maxW="1200px" mx="auto" mb={{ base: "0", sm: "5" }}>
-          <Flex direction="column" align="flex-start" h="full">
-            <Heading fontSize="5xl" fontFamily="Ruda" fontWeight="bold">
-              Il tuo{" "}
+          <Flex direction="column" align="flex-start" h="full" w={{base: "full", lg:"75%"}}>
+            <Heading fontSize={{base: '4xl', md: '5xl'}} fontFamily="Ruda" fontWeight="bold">
+              Esperienza e professionalità. Difendiamo i{" "}
               <Box as="span" position="relative" display="inline-block">
                 <Box
                   as="span"
@@ -52,10 +52,10 @@ const Hero = () => {
                     position: "relative",
                   }}
                 >
-                  alleato
+                  tuoi diritti
                 </span>
               </Box>{" "}
-              legale
+              .
             </Heading>
             <Text fontSize="xl" mt={4} fontFamily="Roboto">
             Esperti in diritto{" "}
