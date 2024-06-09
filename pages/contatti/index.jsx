@@ -1,6 +1,7 @@
 "use client";
 
 import { Box, Flex, Container, Text, Image, Heading } from "@chakra-ui/react";
+import FadeInFrom from "../../components/animations/fadeInFrom";
 
 const Contatti = () => {
   return (
@@ -32,6 +33,7 @@ const Contatti = () => {
           pb={10}
           textAlign="center"
         >
+        <FadeInFrom id='contattiHeroText' direction='bottom'>
           <Heading
             fontSize="4xl"
             fontFamily="Ruda"
@@ -70,6 +72,7 @@ const Contatti = () => {
             </strong>
             .
           </Text>
+          </FadeInFrom>
         </Flex>
       </Container>
     </Box>
