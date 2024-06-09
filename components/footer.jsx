@@ -35,16 +35,28 @@ const Footer = () => {
           <Flex
             direction={{ base: "column", sm: "row" }}
             justify="space-between"
+            alignItems={{ base: "center", sm: "flex-start" }} // Centra los elementos en pantallas pequeñas
             my={5}
             w="100%"
           >
-            <VStack align="flex-start" textAlign="left" spacing={2} w={{ base: "100%", md: "auto" }}>
+            <VStack
+              align={{ base: "center", sm: "flex-start" }} // Centra el contenido horizontalmente en pantallas pequeñas
+              textAlign={{ base: "center", sm: "left" }} // Centra el texto en pantallas pequeñas
+              spacing={2}
+              w={{ base: "100%", md: "auto" }}
+            >
               <Text>Sede de Cosenza</Text>
               <Text>87100 - Piazza Gullo, 5</Text>
               <Text>Email: ....</Text>
               <Text>PEC: ....</Text>
             </VStack>
-            <VStack align="flex-end" textAlign="right" spacing={2} w={{ base: "100%", md: "auto" }}>
+            <VStack
+              align={{ base: "center", sm: "flex-end" }} // Centra el contenido horizontalmente en pantallas pequeñas
+              textAlign={{ base: "center", sm: "right" }} // Centra el texto en pantallas pequeñas
+              spacing={2}
+              mt={{ base: 5, sm: 0 }} // Añade un margen superior en pantallas pequeñas
+              w={{ base: "100%", md: "auto" }}
+            >
               <Link href="#">Política de privacidad</Link>
               <Link href="#">Política de cookies</Link>
               <Link href="#">Diseñado por Neomedi Analytica</Link>
@@ -52,7 +64,7 @@ const Footer = () => {
           </Flex>
 
           {/* Brand Logo and Socials */}
-          <Flex justifyContent="space-between" w="100%" alignItems="center">
+          <Flex justifyContent="space-between" w="100%" alignItems="center" mt={5}>
             <Flex align="center" gap={10} w="full" direction={{base: 'column', md: 'row'}}>
               <Link href="/" _hover={{ textDecoration: 'none', color: 'inherit' }}>
                 <Box textAlign="center" fontFamily="Ruda">
