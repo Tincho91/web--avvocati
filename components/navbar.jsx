@@ -30,11 +30,11 @@ const Navbar = () => {
                   Studio Legale Agovino Monteforte
                 </Text>
                 <Box display="flex" alignItems="center" justifyContent="center" mt={1}>
-                  <Divider width={{base: 0, sm: "20%"}} />
+                  <Divider width={{base: "10%", sm: "20%"}} />
                   <Text mx={3} fontSize={{ base: "lg", md: "xl" }} color="#B9D0FF">
                     Avvocati di Fiducia
                   </Text>
-                  <Divider width={{base: 0, sm: "20%"}} />
+                  <Divider width={{base: "10%", sm: "20%"}} />
                 </Box>
               </Box>
             </Link>
