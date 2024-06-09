@@ -52,7 +52,7 @@ const Hero = () => {
                     position: "relative",
                   }}
                 >
-                  tuoi diritti
+                  tuoi diritti
                 </span>
               </Box>{" "}
               .
