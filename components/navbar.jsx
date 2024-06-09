@@ -18,7 +18,7 @@ const Navbar = () => {
       align="center"
       bg="white"
       justify="space-between"
-      py={4}
+      py={3}
     >
       <Container maxW="1200px" mx="auto">
         <Flex align="center" justify="space-between" width="100%">
