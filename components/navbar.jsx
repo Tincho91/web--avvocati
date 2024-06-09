@@ -57,6 +57,7 @@ const Navbar = () => {
                 mx={1}
                 color="white"
                 boxSize="60px"
+                colorScheme="blue"
               />
               <IconButton
                 bg="#25D366"
@@ -65,6 +66,7 @@ const Navbar = () => {
                 mx={1}
                 color="white"
                 boxSize="60px"
+                colorScheme="green"
               />
             </Flex>
           </Flex>

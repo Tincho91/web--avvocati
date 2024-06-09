@@ -65,12 +65,15 @@ const Contatti = () => {
             legale?
           </Heading>
           <Text fontSize="md" mt={4} fontFamily="Roboto" color="white">
-            Con oltre vent&apos;anni di esperienza, il nostro team offre una vasta
-            gamma di servizi legali in diritto{" "}
+            Con oltre vent'anni di esperienza, il nostro team offre una vasta
+            gamma di servizi legali, tra cui{" "}
             <strong>
-              penale, acquisizioni aziendali, compliance, e diritto civile
+              diritto penale, acquisizioni aziendali, compliance, e diritto civile
             </strong>
-            .
+            . Siamo qui per fornire soluzioni legali efficaci e personalizzate.{" "}
+            <Box as="span" display="block" mt={4}>
+              Contattaci oggi stesso per una consulenza!
+            </Box>
           </Text>
           </FadeInFrom>
         </Flex>
