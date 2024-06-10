@@ -26,15 +26,15 @@ const Navbar = () => {
             <HamburgerMenu />
             <Link href="/" _hover={{ textDecoration: 'none', color: 'inherit' }}>
               <Box textAlign="center" fontFamily="Ruda">
-                <Text fontSize={{ base: "2xl", md: "3xl" }} fontWeight="bold" color="#090D1D">
+                <Text fontSize={{ base: "xl", md: "3xl" }} fontWeight="bold" color="#090D1D">
                   Studio Legale Agovino Monteforte
                 </Text>
                 <Box display="flex" alignItems="center" justifyContent="center" mt={1}>
-                  <Divider width={{base: "10%", sm: "20%"}} />
-                  <Text mx={3} fontSize={{ base: "lg", md: "xl" }} color="#B9D0FF">
+                  <Divider width={{base: "10%", sm: "20%"}} color="#2D4496"/>
+                  <Text mx={3} fontSize={{ base: "lg", md: "xl" }} color="#2D4496">
                     Avvocati di Fiducia
                   </Text>
-                  <Divider width={{base: "10%", sm: "20%"}} />
+                  <Divider width={{base: "10%", sm: "20%"}} color="#2D4496"/>
                 </Box>
               </Box>
             </Link>
