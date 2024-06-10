@@ -39,7 +39,29 @@ const Hero = () => {
                 fontFamily="Ruda"
                 fontWeight="bold"
               >
-                Esperienza e professionalità. Difendiamo i{" "}
+                Esperienza e{" "}
+                <Box as="span" position="relative" display="inline-block">
+                  <Box
+                    as="span"
+                    position="absolute"
+                    bottom="10%"
+                    left="50%"
+                    transform="translateX(-50%)"
+                    width="102%"
+                    height="50%"
+                    bg="#B9D0FF"
+                    zIndex="1"
+                  ></Box>
+                  <span
+                    style={{
+                      zIndex: "2",
+                      position: "relative",
+                    }}
+                  >
+                    professionalità
+                  </span>
+                </Box>
+                . Difendiamo i{" "}
                 <Box as="span" position="relative" display="inline-block">
                   <Box
                     as="span"
@@ -60,13 +82,9 @@ const Hero = () => {
                   >
                     tuoi diritti
                   </span>
-                </Box>{" "}
+                </Box>
                 .
               </Heading>
-              <Text fontSize="xl" mt={4} fontFamily="Roboto">
-                Esperti in diritto <strong>civile, penale, societario</strong> e
-                nelle consulenze legali personalizzate.
-              </Text>
             </Flex>
           </FadeInFrom>
         </Container>
