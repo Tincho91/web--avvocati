@@ -26,7 +26,7 @@ const Navbar = () => {
             <HamburgerMenu />
             <Link href="/" _hover={{ textDecoration: 'none', color: 'inherit' }}>
               <Box textAlign="center" fontFamily="Ruda">
-                <Text fontSize={{ base: "xl", md: "3xl" }} fontWeight="bold" color="#090D1D">
+                <Text fontSize={{ base: "lg", md: "3xl" }} fontWeight="bold" color="#090D1D">
                   Studio Legale Agovino Monteforte
                 </Text>
                 <Box display="flex" alignItems="center" justifyContent="center" mt={1}>
