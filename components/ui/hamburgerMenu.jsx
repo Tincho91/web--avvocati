@@ -101,7 +101,7 @@ const HamburgerMenu = () => {
                     }}
                     href="/contatti"
                   >
-                    CONTATTI
+                    Contatti
                   </Link>
                 </VStack>
                 <Flex
