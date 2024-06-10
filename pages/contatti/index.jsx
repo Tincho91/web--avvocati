@@ -17,7 +17,7 @@ const Contatti = () => {
         inset='0'
         minH="250px"
         backgroundImage={{
-          base: "/images/sellBannerMobile.png",
+          base: "/images/sellBanner.png",
           sm: "/images/sellBanner.png",
         }}
         backgroundSize="cover"
@@ -65,7 +65,7 @@ const Contatti = () => {
             legale?
           </Heading>
           <Text fontSize="md" mt={4} fontFamily="Roboto" color="white">
-            Con oltre vent'anni di esperienza, il nostro team offre una vasta
+            Con oltre vent&apos;anni di esperienza, il nostro team offre una vasta
             gamma di servizi legali, tra cui{" "}
             <strong>
               diritto penale, acquisizioni aziendali, compliance, e diritto civile
