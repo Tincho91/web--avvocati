@@ -16,11 +16,14 @@ const Navbar = () => {
     <Flex as="nav" align="center" bg="white" justify="space-between" py={3}>
       <Container maxW="1200px" mx="auto">
         <Flex align="center" justify="space-between" width="100%">
-          <Flex align="center" gap={{ base: "2", sm: "10" }}>
+          <Flex align="center" gap={{ base: "2", sm: "10" }} width="100%">
             <HamburgerMenu />
             <Link
               href="/"
               _hover={{ textDecoration: "none", color: "inherit" }}
+              ml={{ base: "auto", md: "0" }}
+              order={{ base: 2, md: 1 }}
+              width="full"
             >
               <Box textAlign="center" fontFamily="Ruda">
                 <Text
