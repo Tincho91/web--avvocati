@@ -62,11 +62,11 @@ const Footer = () => {
               w={{ base: "100%", md: "auto" }}
             >
               <Text fontWeight="bold">Sede di Cosenza</Text>
-              <Text fontStyle="italic">87100 - Piazza Gullo, 5</Text>
+              <Text fontStyle="bold">87100 - Piazza Gullo, 5</Text>
               <Text fontWeight="bold">
-                Email: infosecreteria@studiolegale.com
+                Email: infosegreteria@studiolegale.com
               </Text>
-              <Text fontStyle="italic">PEC: stuciolegale@pec.it</Text>
+              <Text fontStyle="italic">PEC: studiolegale@pec.it</Text>
             </VStack>
             <VStack
               align={{ base: "flex-start", sm: "flex-end" }}
@@ -76,10 +76,10 @@ const Footer = () => {
               w={{ base: "100%", md: "auto" }}
             >
               <Link href="#footer" onClick={onPrivacyOpen}>
-                Politica sulla privacy
+                Privacy Policy
               </Link>
               <Link href="#footer" onClick={onCookiesOpen}>
-                Politica sui cookie
+                Cookie Policy
               </Link>
             </VStack>
           </Flex>
@@ -97,32 +97,6 @@ const Footer = () => {
               w="full"
               direction={{ base: "column", md: "row" }}
             >
-              <Link
-                href="/"
-                _hover={{ textDecoration: "none", color: "inherit" }}
-              >
-                <Box textAlign="center" fontFamily="Ruda">
-                  <Text
-                    fontSize={{ base: "xl", md: "3xl" }}
-                    fontWeight="bold"
-                    color="white"
-                  >
-                    Studio Legale Agovino Monteforte
-                  </Text>
-                  <Box
-                    display="flex"
-                    alignItems="center"
-                    justifyContent="center"
-                    mt={1}
-                  >
-                    <Divider width="20%" />
-                    <Text mx={3} fontSize="lg" color="#B9D0FF">
-                      Avvocati di Fiducia
-                    </Text>
-                    <Divider width="20%" />
-                  </Box>
-                </Box>
-              </Link>
               <Flex
                 align="center"
                 gap={5}
@@ -146,9 +120,9 @@ const Footer = () => {
           </Flex>
 
           {/* Designed by Neomedi Analytica */}
-          <Box w="100%" textAlign={{ base: "left", sm: "right" }} mt={5}>
+          <Box w="100%" textAlign="center" mt={5} fontSize="sm">
             <Link href="#">
-              Progettato da{" "}
+              Designed by{" "}
               <Box as="span" fontStyle="italic" fontWeight='bold'>
                 Neomedi Analytica
               </Box>
@@ -161,7 +135,7 @@ const Footer = () => {
       <Modal isOpen={isPrivacyOpen} onClose={onPrivacyClose}>
         <ModalOverlay />
         <ModalContent maxW="95%">
-          <ModalHeader>Politica sulla privacy</ModalHeader>
+          <ModalHeader>Privacy Policy</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <Text>
@@ -282,7 +256,7 @@ const Footer = () => {
       <Modal isOpen={isCookiesOpen} onClose={onCookiesClose}>
         <ModalOverlay />
         <ModalContent maxW="95%">
-          <ModalHeader>Politica sui cookie</ModalHeader>
+          <ModalHeader>Cookie Policy</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
             <Text>
