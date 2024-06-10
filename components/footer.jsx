@@ -147,7 +147,12 @@ const Footer = () => {
 
           {/* Designed by Neomedi Analytica */}
           <Box w="100%" textAlign={{ base: "left", sm: "right" }} mt={5}>
-            <Link href="#">Progettato da Neomedi Analytica</Link>
+            <Link href="#">
+              Progettato da{" "}
+              <Box as="span" fontStyle="italic" fontWeight='bold'>
+                Neomedi Analytica
+              </Box>
+            </Link>
           </Box>
         </Flex>
       </Container>
