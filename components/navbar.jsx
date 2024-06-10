@@ -60,19 +60,6 @@ const Navbar = () => {
           </Flex>
 
           <Flex align="center" gap={5}>
-            <Flex
-              align="center"
-              display={{ base: "none", lg: "flex" }}
-              gap={5}
-              fontFamily="roboto"
-            >
-              <Link href="/noi">
-                <Box mx={2}>Chi Siamo</Box>
-              </Link>
-              <Link href="/servizi">
-                <Box mx={2}>I nostri servizi</Box>
-              </Link>
-            </Flex>
             <Flex align="center" display={{ base: "none", md: "flex" }} gap={5}>
               <IconButton
                 bg="#2D4496"

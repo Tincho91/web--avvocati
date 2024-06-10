@@ -45,7 +45,7 @@ const Footer = () => {
               spacing={2}
               w={{ base: "100%", md: "auto" }}
             >
-              <Text>Sede de Cosenza</Text>
+              <Text>Sede di Cosenza</Text>
               <Text>87100 - Piazza Gullo, 5</Text>
               <Text>Email: ....</Text>
               <Text>PEC: ....</Text>
