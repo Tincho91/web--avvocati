@@ -62,7 +62,7 @@ const Footer = () => {
               w={{ base: "100%", md: "auto" }}
             >
               <Text fontWeight="bold">Sede di Cosenza</Text>
-              <Text fontStyle="bold">87100 - Piazza Gullo, 5</Text>
+              <Text fontWeight="bold">87100 - Piazza Gullo, 5</Text>
               <Text fontWeight="bold">
                 Email: infosegreteria@studiolegale.com
               </Text>
