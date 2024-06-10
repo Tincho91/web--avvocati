@@ -120,50 +120,50 @@ const HamburgerMenu = () => {
                   </Link>
                 </Flex>
                 <Flex gap={5} flexDirection="row" alignItems="center" mt={10}>
-                  <Flex flexDirection="column" alignItems="center">
-                    <Link href="#" fontSize="lg">
-                      English
-                    </Link>
-                    <Image
-                      src="/images/estados-unidos.png"
-                      alt="Estados Unidos"
-                      width="24"
-                      height="24"
-                    />
-                  </Flex>
-                  <Flex flexDirection="column" alignItems="center">
-                    <Link href="#" fontSize="lg">
-                      Italiano
-                    </Link>
-                    <Image
-                      src="/images/italia.png"
-                      alt="Italia"
-                      width="24"
-                      height="24"
-                    />
-                  </Flex>
-                  <Flex flexDirection="column" alignItems="center">
-                    <Link href="#" fontSize="lg">
-                      Español
-                    </Link>
-                    <Image
-                      src="/images/espana.png"
-                      alt="España"
-                      width="24"
-                      height="24"
-                    />
-                  </Flex>
-                  <Flex flexDirection="column" alignItems="center">
-                    <Link href="#" fontSize="lg">
-                      Português
-                    </Link>
-                    <Image
-                      src="/images/portugal.png"
-                      alt="Portugal"
-                      width="24"
-                      height="24"
-                    />
-                  </Flex>
+                  <Link href="#">
+                    <Flex flexDirection="column" alignItems="center">
+                      <Text fontSize="lg">English</Text>
+                      <Image
+                        src="/images/estados-unidos.png"
+                        alt="Estados Unidos"
+                        width="24"
+                        height="24"
+                      />
+                    </Flex>
+                  </Link>
+                  <Link href="#">
+                    <Flex flexDirection="column" alignItems="center">
+                      <Text fontSize="lg">Italiano</Text>
+                      <Image
+                        src="/images/italia.png"
+                        alt="Italia"
+                        width="24"
+                        height="24"
+                      />
+                    </Flex>
+                  </Link>
+                  <Link href="#">
+                    <Flex flexDirection="column" alignItems="center">
+                      <Text fontSize="lg">Español</Text>
+                      <Image
+                        src="/images/espana.png"
+                        alt="España"
+                        width="24"
+                        height="24"
+                      />
+                    </Flex>
+                  </Link>
+                  <Link href="#">
+                    <Flex flexDirection="column" alignItems="center">
+                      <Text fontSize="lg">Português</Text>
+                      <Image
+                        src="/images/portugal.png"
+                        alt="Portugal"
+                        width="24"
+                        height="24"
+                      />
+                    </Flex>
+                  </Link>
                 </Flex>
               </Flex>
             </DrawerBody>
