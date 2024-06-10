@@ -12,14 +12,11 @@ import {
   useDisclosure,
   VStack,
   Link,
+  Text,
 } from "@chakra-ui/react";
+import Image from "next/image";
 
-import {
-  FaEnvelope,
-  FaWhatsapp,
-  FaLinkedin,
-  FaBars,
-} from "react-icons/fa";
+import { FaEnvelope, FaWhatsapp, FaLinkedin, FaBars } from "react-icons/fa";
 
 const HamburgerMenu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -121,6 +118,52 @@ const HamburgerMenu = () => {
                   <Link isExternal href="https://www.linkedin.com/">
                     <FaLinkedin size="2em" />
                   </Link>
+                </Flex>
+                <Flex gap={5} flexDirection="row" alignItems="center" mt={10}>
+                  <Flex flexDirection="column" alignItems="center">
+                    <Link href="#" fontSize="lg">
+                      English
+                    </Link>
+                    <Image
+                      src="/images/estados-unidos.png"
+                      alt="Estados Unidos"
+                      width="24"
+                      height="24"
+                    />
+                  </Flex>
+                  <Flex flexDirection="column" alignItems="center">
+                    <Link href="#" fontSize="lg">
+                      Italiano
+                    </Link>
+                    <Image
+                      src="/images/italia.png"
+                      alt="Italia"
+                      width="24"
+                      height="24"
+                    />
+                  </Flex>
+                  <Flex flexDirection="column" alignItems="center">
+                    <Link href="#" fontSize="lg">
+                      Español
+                    </Link>
+                    <Image
+                      src="/images/espana.png"
+                      alt="España"
+                      width="24"
+                      height="24"
+                    />
+                  </Flex>
+                  <Flex flexDirection="column" alignItems="center">
+                    <Link href="#" fontSize="lg">
+                      Português
+                    </Link>
+                    <Image
+                      src="/images/portugal.png"
+                      alt="Portugal"
+                      width="24"
+                      height="24"
+                    />
+                  </Flex>
                 </Flex>
               </Flex>
             </DrawerBody>
