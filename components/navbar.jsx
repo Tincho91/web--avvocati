@@ -40,7 +40,7 @@ const Navbar = () => {
                   mt={1}
                 >
                   <Divider
-                    width={{ base: "10%", sm: "20%" }}
+                    width={{ base: "10%", md: "20%" }}
                     borderColor="#2D4496"
                   />
                   <Text
@@ -51,7 +51,7 @@ const Navbar = () => {
                     Avvocati di Fiducia
                   </Text>
                   <Divider
-                    width={{ base: "10%", sm: "20%" }}
+                    width={{ base: "10%", md: "20%" }}
                     borderColor="#2D4496"
                   />
                 </Box>
