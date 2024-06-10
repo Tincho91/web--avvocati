@@ -45,7 +45,7 @@ const Navbar = () => {
                   />
                   <Text
                     mx={3}
-                    fontSize={{ base: "lg", md: "xl" }}
+                    fontSize={{ base: "lg", md: "lg" }}
                     color="#2D4496"
                   >
                     Avvocati di Fiducia

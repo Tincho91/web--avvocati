@@ -42,7 +42,7 @@ const Servizi = () => {
               fontFamily="Roboto"
               maxW="100%"
               flex="1"
-              textAlign="center"
+              textAlign="left"
               fontSize="xl"
             >
               Lo Studio offre servizi legali in diritto penale, acquisizioni

@@ -12,14 +12,12 @@ import {
   useDisclosure,
   VStack,
   Link,
-  Container,
 } from "@chakra-ui/react";
 
 import {
   FaEnvelope,
   FaWhatsapp,
-  FaFacebook,
-  FaInstagram,
+  FaLinkedin,
   FaBars,
 } from "react-icons/fa";
 
@@ -89,7 +87,7 @@ const HamburgerMenu = () => {
                     }}
                     href="/servizi"
                   >
-                    I nostri servizi
+                    Aree di attività
                   </Link>
                   <Link
                     fontSize={{
@@ -120,11 +118,8 @@ const HamburgerMenu = () => {
                   >
                     <FaWhatsapp size="2em" />
                   </Link>
-                  <Link isExternal href="https://www.facebook.com/YourPage">
-                    <FaFacebook size="2em" />
-                  </Link>
-                  <Link isExternal href="https://www.instagram.com/YourProfile">
-                    <FaInstagram size="2em" />
+                  <Link isExternal href="https://www.linkedin.com/">
+                    <FaLinkedin size="2em" />
                   </Link>
                 </Flex>
               </Flex>
