@@ -61,30 +61,11 @@ const Hero = () => {
                     professionalità
                   </span>
                 </Box>
-                . Difendiamo i{" "}
-                <Box as="span" position="relative" display="inline-block">
-                  <Box
-                    as="span"
-                    position="absolute"
-                    bottom="10%"
-                    left="50%"
-                    transform="translateX(-50%)"
-                    width="102%"
-                    height="50%"
-                    bg="#B9D0FF"
-                    zIndex="1"
-                  ></Box>
-                  <span
-                    style={{
-                      zIndex: "2",
-                      position: "relative",
-                    }}
-                  >
-                    tuoi diritti
-                  </span>
-                </Box>
-                .
+                  .
               </Heading>
+              <Text fontSize="2xl" mt={4} fontFamily="Roboto">
+                Difendiamo i tuoi diritti.
+              </Text>
             </Flex>
           </FadeInFrom>
         </Container>
